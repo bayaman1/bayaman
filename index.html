@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .car-section {
+            margin-bottom: 30px;
+        }
+        .car-section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #444;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <header>
+        <h1>Welcome to Car World</h1>
+        <p>Explore different types of cars and their features!</p>
+    </header>
+    <nav>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Контакты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Портфолио</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="services.html">Сервис</a>
+                </li>
+            </ul>
+        </div>
+     </nav>
+
+    <nav>
+        <a href="#sedan">Sedan</a>
+        <a href="#suv">SUV</a>
+        <a href="#sports">Sports Cars</a>
+    </nav>
+
+    <div class="container">
+        <section id="sedan" class="car-section">
+            <h2>Sedan</h2>
+            <p>Sedans are known for their comfortable ride, fuel efficiency, and elegant design. They are great for city driving and long commutes.</p>
+            <img src="/img for index/reliable-used-sedan-audi-a4-dt.avif" alt="Sedan">
+        </section>
+
+        <section id="suv" class="car-section">
+            <h2>SUV</h2>
+            <p>SUVs offer a perfect mix of space, power, and versatility. Ideal for families and off-road adventures.</p>
+            <img src="/img for index/XXL-BODYSTYLELANDING-GLA-SUV.webp" alt="SUV">
+        </section>
+
+        <section id="sports" class="car-section">
+            <h2>Sports Cars</h2>
+            <p>Sports cars are built for speed and performance. They feature sleek designs and powerful engines, perfect for car enthusiasts.</p>
+            <img src="/img for index/sport car.jpg" alt="Sports Car">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Car World. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
